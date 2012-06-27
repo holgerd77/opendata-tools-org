@@ -1,0 +1,537 @@
+[
+	{
+		"pk": 1,
+		"model": "website_showroom.category",
+		"fields": {
+			"color": "#999",
+			"url_name": "visualization",
+			"name": "Visualization",
+			"active_color": "#f80",
+			"order": 100
+		}
+	}, {
+		"pk": 2,
+		"model": "website_showroom.category",
+		"fields": {
+			"color": "#999",
+			"url_name": "data",
+			"name": "Data",
+			"active_color": "#d50",
+			"order": 200
+		}
+	}, {
+		"pk": 3,
+		"model": "website_showroom.category",
+		"fields": {
+			"color": "#999",
+			"url_name": "source-code",
+			"name": "Source Code",
+			"active_color": "#930",
+			"order": 300
+		}
+	}, {
+		"pk": 4,
+		"model": "website_showroom.category",
+		"fields": {
+			"color": "#999",
+			"url_name": "information",
+			"name": "Information",
+			"active_color": "#520",
+			"order": 400
+		}
+	}, {
+		"pk": 1,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_1.jpg",
+			"title": "Google Chart Tools",
+			"url": "http://code.google.com/apis/chart/",
+			"country": "",
+			"pub_date": "2011-07-03 17:55:00",
+			"order": 100,
+			"desc": "Javascript API from Google to easily create visualization charts, also from real-time data."
+		}
+	}, {
+		"pk": 2,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_2.jpg",
+			"title": "ScraperWiki",
+			"url": "http://scraperwiki.com",
+			"country": "",
+			"pub_date": "2011-07-03 18:01:00",
+			"order": 100,
+			"desc": "Community for the creation and reuse of data scrapers with support for Ruby, Python and PHP and free scraper and data hosting."
+		}
+	}, {
+		"pk": 3,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_3.jpg",
+			"title": "Sunlight Labs",
+			"url": "http://sunlightlabs.com",
+			"country": "",
+			"pub_date": "2011-07-03 18:05:00",
+			"order": 100,
+			"desc": "Project space of the Sunlight Foundation with a huge amount of hosted projects under an open source software licence beeing free for reuse."
+		}
+	}, {
+		"pk": 4,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_4.jpg",
+			"title": "guardian.co.uk - Datablog",
+			"url": "http://www.guardian.co.uk/news/datablog",
+			"country": "",
+			"pub_date": "2011-07-03 18:18:00",
+			"order": 500,
+			"desc": "Datablog of the British Guardian covering new open data developments in Great Britain and the world."
+		}
+	}, {
+		"pk": 5,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_5.jpg",
+			"title": "google-refine",
+			"url": "http://code.google.com/p/google-refine/",
+			"country": "",
+			"pub_date": "2011-07-03 23:06:00",
+			"order": 400,
+			"desc": "Powerful tool from Google for cleaning up and transforming messy data."
+		}
+	}, {
+		"pk": 6,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_6.jpg",
+			"title": "JavaScript InfoVis Toolkit",
+			"url": "http://thejit.org",
+			"country": "",
+			"pub_date": "2011-07-03 23:15:00",
+			"order": 200,
+			"desc": "Javascript toolkit for creating data visualizations with support of various chart types."
+		}
+	}, {
+		"pk": 7,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_7.jpg",
+			"title": "mySociety - github",
+			"url": "http://github.com/mysociety",
+			"country": "",
+			"pub_date": "2011-07-03 23:21:00",
+			"order": 200,
+			"desc": "Github account of mysociety.org with the source code of projects like fixmystreet or theyworkforyou."
+		}
+	}, {
+		"pk": 8,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_8.jpg",
+			"title": "CKAN - the Data Hub Software",
+			"url": "http://ckan.org",
+			"country": "",
+			"pub_date": "2011-07-03 23:28:00",
+			"order": 600,
+			"desc": "Open source software for publishing, sharing and finding data, used as a basis for many data catalogues."
+		}
+	}, {
+		"pk": 9,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_9.jpg",
+			"title": "Apache Solr",
+			"url": "http://lucene.apache.org",
+			"country": "",
+			"pub_date": "2011-07-03 23:35:00",
+			"order": 1000,
+			"desc": "Open source search platform with REST interface to realize fulltext search capability over large amounts of data."
+		}
+	}, {
+		"pk": 10,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_10.jpg",
+			"title": "Apache Mahout",
+			"url": "http://mahout.apache.org",
+			"country": "",
+			"pub_date": "2011-07-03 23:40:00",
+			"order": 1300,
+			"desc": "Apache software project with different scalable machine learning libraries in Java to get meaning out of data."
+		}
+	}, {
+		"pk": 11,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_11.jpg",
+			"title": "Google docs - spreadsheets",
+			"url": "http://www.google.com/google-d-s/spreadsheets/",
+			"country": "",
+			"pub_date": "2011-07-03 23:46:00",
+			"order": 500,
+			"desc": "Google tool to create and share structured data (spreadsheets) online, can be used in combination with other Google tools like Google Chart Tools or google-refine."
+		}
+	}, {
+		"pk": 12,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_12.jpg",
+			"title": "Google Public Data Explorer",
+			"url": "http://www.google.com/publicdata/home",
+			"country": "",
+			"pub_date": "2011-07-03 23:58:00",
+			"order": 400,
+			"desc": "Online public dataset directory and tool to publish and visualize large datasets."
+		}
+	}, {
+		"pk": 13,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_13.jpg",
+			"title": "Open Knowledge Foundation - github",
+			"url": "http://github.com/okfn",
+			"country": "",
+			"pub_date": "2011-07-04 00:02:00",
+			"order": 300,
+			"desc": "Github account of the Open Knowledge Foundation (OKFN) with access to the source code of various OKFN projects."
+		}
+	}, {
+		"pk": 14,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_14.jpg",
+			"title": "Greasemonkey",
+			"url": "http://addons.mozilla.org/de/firefox/addon/greasemonkey/",
+			"country": "",
+			"pub_date": "2011-07-04 00:18:00",
+			"order": 200,
+			"desc": "Firefox Add-on to execute own Javascript files in the browser, which can be used to realize screen scrapers in Javascript."
+		}
+	}, {
+		"pk": 15,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_15.jpg",
+			"title": "d3.js - Data-Driven Documents",
+			"url": "http://mbostock.github.com/d3/",
+			"country": "",
+			"pub_date": "2011-07-04 00:36:00",
+			"order": 300,
+			"desc": "Small and very flexible open-source JavaScript library for manipulating documents based on data (e.g. to generate HTML5 or SVG charts from data)."
+		}
+	}, {
+		"pk": 16,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_16.jpg",
+			"title": "Ushahidi",
+			"url": "http://www.ushahidi.com",
+			"country": "",
+			"pub_date": "2011-07-08 00:20:00",
+			"order": 500,
+			"desc": "Open source software for information collection, visualization and interactive mapping of location-based realtime data (e.g. from emergency situations, political elections, ...)."
+		}
+	}, {
+		"pk": 17,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_17.jpg",
+			"title": "Pachube",
+			"url": "http://pachube.com",
+			"country": "",
+			"pub_date": "2011-07-08 00:28:00",
+			"order": 300,
+			"desc": "Service to create public or private API feeds from real-time data from sensors devices or environments, free and paid plans."
+		}
+	}, {
+		"pk": 18,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_18.jpg",
+			"title": "elasticsearch",
+			"url": "http://www.elasticsearch.org",
+			"country": "",
+			"pub_date": "2011-07-08 00:35:00",
+			"order": 1100,
+			"desc": "Distributed RESTful open source search engine for building search applications or add search to websites."
+		}
+	}, {
+		"pk": 19,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_19.jpg",
+			"title": "80Legs - Custom Web Crawlers",
+			"url": "http://80legs.com",
+			"country": "",
+			"pub_date": "2011-07-08 00:49:00",
+			"order": 1200,
+			"desc": "Service to create custom web crawlers to extract data from websites, free and paid plans."
+		}
+	}, {
+		"pk": 20,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_20.jpg",
+			"title": "Wikipedia - Open Data",
+			"url": "http://en.wikipedia.org/wiki/Open_data",
+			"country": "",
+			"pub_date": "2011-07-11 22:44:00",
+			"order": 100,
+			"desc": "Open Data introduction on Wikipedia."
+		}
+	}, {
+		"pk": 21,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_21.jpg",
+			"title": "OKFN - Open Definition",
+			"url": "http://www.opendefinition.org",
+			"country": "",
+			"pub_date": "2011-07-11 22:57:00",
+			"order": 200,
+			"desc": "Website maintained by the Open Knowledge Foundation with a definition of Open in Open Data, Open Content and Open Services and information about usable licences to ensure openness."
+		}
+	}, {
+		"pk": 22,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_22.jpg",
+			"title": "Google Correlate",
+			"url": "http://correlate.googlelabs.com",
+			"country": "",
+			"pub_date": "2011-07-11 23:04:00",
+			"order": 900,
+			"desc": "Tool from Google to find searches that correlate with real-world data (e.g. correlation between searches like \"how to treat the flu\" and actual flu activity)."
+		}
+	}, {
+		"pk": 23,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_23.jpg",
+			"title": "OReilly - Open Government Book",
+			"url": "http://ofps.oreilly.com/titles/9780596804350/",
+			"country": "",
+			"pub_date": "2011-07-11 23:25:00",
+			"order": 300,
+			"desc": "Free first chapter \"Government as a platform\" from OReilly Book about open government."
+		}
+	}, {
+		"pk": 24,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_24.jpg",
+			"title": "New York Times - Open Blog",
+			"url": "http://open.blogs.nytimes.com",
+			"country": "",
+			"pub_date": "2011-07-11 23:32:00",
+			"order": 600,
+			"desc": "Blog from New York Times developers about open data activities from the NYTimes and developments around open data."
+		}
+	}, {
+		"pk": 25,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_25.jpg",
+			"title": "Sunlight Foundation - Sunlight Labs Blog",
+			"url": "http://sunlightlabs.com/blog/",
+			"country": "",
+			"pub_date": "2011-07-11 23:41:00",
+			"order": 700,
+			"desc": "Developer blog by the Sunlight Foundation with news around Sunlight projects and open data projects and websites in the U.S.."
+		}
+	}, {
+		"pk": 26,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_26.jpg",
+			"title": "Open Knowledge Foundation Blog - Open Data",
+			"url": "http://blog.okfn.org/category/open-data/",
+			"country": "",
+			"pub_date": "2011-07-11 23:46:00",
+			"order": 800,
+			"desc": "Open Data category from the blog of the Open Knowledge Foundation with recent open data news."
+		}
+	}, {
+		"pk": 27,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_27.jpg",
+			"title": "OKFN - Open Data Manual",
+			"url": "http://opendatamanual.org",
+			"country": "",
+			"pub_date": "2011-08-22 22:51:00",
+			"order": 400,
+			"desc": "Manual maintained by the Open Knowledge Foundation discussing legal, social and technical aspects of Open Data."
+		}
+	}, {
+		"pk": 28,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_28.jpg",
+			"title": "Google Fusion Tables",
+			"url": "http://www.google.com/fusiontables/",
+			"country": "",
+			"pub_date": "2011-08-22 23:10:00",
+			"order": 800,
+			"desc": "Data management tool from google to import, merge, publish, visualize and share data in the cloud."
+		}
+	}, {
+		"pk": 29,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_29.jpg",
+			"title": "Eclipse BIRT",
+			"url": "http://www.eclipse.org/birt/phoenix/",
+			"country": "",
+			"pub_date": "2011-08-22 23:25:00",
+			"order": 600,
+			"desc": "Reporting system for eclipse to create visually compelling reports from large amounts of data."
+		}
+	}, {
+		"pk": 30,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 2,
+			"screenshot": "screenshots/website_30.jpg",
+			"title": "Socrata",
+			"url": "http://www.socrata.com",
+			"country": "",
+			"pub_date": "2011-08-22 23:38:00",
+			"order": 700,
+			"desc": "Open Data company providing a platform for institutions to publish and manage public data, used for many data catalogues."
+		}
+	}, {
+		"pk": 31,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_31.jpg",
+			"title": "Open-Data-Catalog - github",
+			"url": "https://github.com/azavea/Open-Data-Catalog",
+			"country": "",
+			"pub_date": "2011-08-23 00:20:00",
+			"order": 400,
+			"desc": "Open source version of the code for OpenDataPhilly.org, the data catalogue for Philadelphia, PA."
+		}
+	}, {
+		"pk": 32,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_32.png",
+			"title": "NY State Senate - Developers Network",
+			"url": "http://www.nysenate.gov/developers/#sourcecode",
+			"country": "",
+			"pub_date": "2011-09-29 22:08:14",
+			"order": 500,
+			"desc": "Developers Network of the New York State Senate with information about APIs provided, source code used and contact possibilities."
+		}
+	}, {
+		"pk": 33,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_33.png",
+			"title": "Froide - Github",
+			"url": "https://github.com/stefanw/froide",
+			"country": "",
+			"pub_date": "2011-09-30 09:30:44",
+			"order": 600,
+			"desc": "Source code (Python/Django) for the German Freedom of Information request portal fragdenstaat.de - similar to whatdotheyknow.com - can be used as a basis for own FOI sites."
+		}
+	}, {
+		"pk": 34,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 1,
+			"screenshot": "screenshots/website_34.png",
+			"title": "DataMaps.eu - map your data",
+			"url": "http://www.datamaps.eu/",
+			"country": "",
+			"pub_date": "2011-09-30 11:28:47",
+			"order": 450,
+			"desc": "Tool for the creation of appealing map visualizations, which can be created within the website without programming knowledge."
+		}
+	}, {
+		"pk": 35,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_35.png",
+			"title": "apileipzig - Github",
+			"url": "https://github.com/apileipzig",
+			"country": "",
+			"pub_date": "2011-10-02 00:43:24",
+			"order": 700,
+			"desc": "Source code (Ruby) on Github used for the data api of the german city of Leipzig."
+		}
+	}, {
+		"pk": 36,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 3,
+			"screenshot": "screenshots/website_36.png",
+			"title": "Code for America - github",
+			"url": "http://codeforamerica.org",
+			"country": "",
+			"pub_date": "2011-10-09 22:53:26",
+			"order": 350,
+			"desc": "Github account of the U.S. organization \"Code for America\" with dozens of public repositories with open gov web solutions."
+		}
+	}, {
+		"pk": 37,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_37.png",
+			"title": "Sunlight Foundation Blog",
+			"url": "http://sunlightfoundation.com/blog/",
+			"country": "",
+			"pub_date": "2011-10-09 22:58:38",
+			"order": 650,
+			"desc": "Blog of the U.S. non-profit Sunlight Foundation mainly covering U.S. open government news."
+		}
+	}, {
+		"pk": 38,
+		"model": "website_showroom.website",
+		"fields": {
+			"category": 4,
+			"screenshot": "screenshots/website_38.png",
+			"title": "World Bank - News | Data",
+			"url": "http://data.worldbank.org/news",
+			"country": "",
+			"pub_date": "2011-10-09 23:08:48",
+			"order": 900,
+			"desc": "Blog with news about the open data activities of the World Bank and related open data topics."
+		}
+	}
+]
