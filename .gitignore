@@ -3,7 +3,6 @@
 *.sql
 *.gz
 *.zip
-*.tar
 *.log
 *.db
 opendata_tools_org/media/screenshots
