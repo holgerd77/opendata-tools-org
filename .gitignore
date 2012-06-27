@@ -5,6 +5,7 @@
 *.zip
 *.tar
 *.log
+*.db
 .project
 .pydevproject
 config-scripts
