@@ -7,5 +7,6 @@
 *.log
 .project
 .pydevproject
+config-scripts
 fabfiles
 fabfile.py
