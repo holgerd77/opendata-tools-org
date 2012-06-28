@@ -5,8 +5,8 @@
 *.zip
 *.log
 *.db
-opendata_tools_org/media/screenshots
-opendata_tools_org/search_index
+media
+search_index
 .project
 .pydevproject
 config-scripts
