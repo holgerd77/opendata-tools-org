@@ -140,6 +140,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'haystack',
     'website_showroom',
+    'opendata_tools_org',
 )
 
 # A sample logging configuration. The only tangible logging
