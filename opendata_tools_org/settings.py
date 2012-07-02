@@ -182,6 +182,7 @@ HAYSTACK_CONNECTIONS = {
 
 
 #Showroom specific settings
+'''
 HTML_TITLE = 'Open Data Tools' # Used for html title tag
 SITE_TITLE = 'Open Data Tools' # Main title shown on page
 SITE_SUBTITLE = 'Tools to Explore, Publish<br />and Share Public Datasets' # Subtitle (HTML tags possible)
@@ -199,3 +200,4 @@ FOOTER_RIGHT = '<a href="http://www.facebook.com/pages/Open-Data-Tools/127161914
 FOOTER_RIGHT += ' | Project by <a href="http://opendata-network.org" target="_blank">Open Data Network e.V.</a>'
 CONTACT_TITLE = 'Contact'
 CONTACT_HTML = 'Holger Drewes<br />Allerstr. 5<br />12049 Berlin<br /><br /><br />Holger [[punkt]] Drewes [[aett]] googlemail [[punkt]] com<br>'
+'''
