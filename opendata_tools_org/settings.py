@@ -131,7 +131,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'haystack',
-    'south',
     'website_showroom',
     'opendata_tools_org',
 )
