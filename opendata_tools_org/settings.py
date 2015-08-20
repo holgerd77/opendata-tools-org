@@ -173,25 +173,3 @@ HAYSTACK_CONNECTIONS = {
 }
 
 HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
-
-
-#Showroom specific settings
-'''
-HTML_TITLE = 'Open Data Tools' # Used for html title tag
-SITE_TITLE = 'Open Data Tools' # Main title shown on page
-SITE_SUBTITLE = 'Tools to Explore, Publish<br />and Share Public Datasets' # Subtitle (HTML tags possible)
-RSS_TITLE = 'Open Data Tools - Latest tools added' # Title for rss feed
-RSS_DESCRIPTION = 'Feed of the latest tools added to the showroom.'
-FACEBOOK_URL = 'http://www.facebook.com/pages/Open-Data-Tools/127161914036790' #Optional, link to Facebook page
-
-HOME_MENU_TITLE = 'Home' # Title of home menu button
-HOME_MENU_COLOR = '#777' # Base color of home menu button
-HOME_MENU_ACTIVE_COLOR = '#000000' # Active color
-HOME_NUM_WEBSITES = 12 # Number of websites for home category
-
-FOOTER_LEFT = '<a href="http://www.opendefinition.org/okd/" target="_blank"><img src="/static/od_80x15_blue.png" width="80" height="15"></a>'
-FOOTER_RIGHT = '<a href="http://www.facebook.com/pages/Open-Data-Tools/127161914036790" target="_blank">Forgotten something?</a>'
-FOOTER_RIGHT += ' | Project by <a href="http://opendata-network.org" target="_blank">Open Data Network e.V.</a>'
-CONTACT_TITLE = 'Contact'
-CONTACT_HTML = 'Holger Drewes<br />Allerstr. 5<br />12049 Berlin<br /><br /><br />Holger [[punkt]] Drewes [[aett]] googlemail [[punkt]] com<br>'
-'''
