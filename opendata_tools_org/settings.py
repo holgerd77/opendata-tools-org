@@ -171,6 +171,8 @@ HAYSTACK_CONNECTIONS = {
     },
 }
 
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+
 
 #Showroom specific settings
 '''
